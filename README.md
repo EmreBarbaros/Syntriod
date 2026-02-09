@@ -21,7 +21,8 @@ parameter precision.
 This is accomplished through a suite of specialized mathematical algorithms, including alias and harmonic control mechanisms, frequency analysis in both the time and phase domains, 
 and an extensive template library. Consequently, Syntriod can deliver the full set of parameters with high precision, even for systems with as few as 5 data points.
 
-<img width="1581" height="305" alt="image" src="https://github.com/user-attachments/assets/9d5baf00-f0d1-4f47-96ad-b5525fa4ec8f" />
+<img width="1582" height="390" alt="image" src="https://github.com/user-attachments/assets/8a1f80d2-25e8-4539-b6c8-110169e6974e" />
+
 
 *Syntriod is neither a standard periodogram nor a traditional radial velocity fitting code; rather, it is a parameter estimation routine. 
 It estimates both the orbital period and the full set of orbital parameters for a binary system with high resolution.* 
