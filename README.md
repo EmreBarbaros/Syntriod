@@ -5,7 +5,8 @@
 
 **Orbital solution of binary stars using synthetic template radial velocity curves.**
 
-<img width="640" height="480" alt="ezgif-2e9807fdef2c8e4d" src="https://github.com/user-attachments/assets/75b2b663-09df-46f7-a9a1-8994776976b1" />
+<img width="720" height="540" alt="synt" src="https://github.com/user-attachments/assets/130cf8cf-4d36-485d-8a8b-5c38731828cd" />
+
 </div>
 
 ## Overview
