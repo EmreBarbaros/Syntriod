@@ -44,3 +44,5 @@ Syntriod's parameter precision was tested using tens of thousands of synthetic d
 **The source code is currently being organized for release and will be available here within a few days.**
 
 **For further details, refer to the [Syntriod's article](https://iopscience.iop.org/article/10.1088/1538-3873/ae8575).**
+
+Contact & Inquiries: **[ebarbaros054@gmail.com]**
