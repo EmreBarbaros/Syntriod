@@ -1,6 +1,5 @@
 <div align="center">
 
-
 # Syntriod
 
 **Orbital solution of binary stars using synthetic template radial velocity curves.**
@@ -36,7 +35,20 @@ This is accomplished through a suite of specialized mathematical algorithms, inc
 > *Syntriod is neither a standard periodogram nor a traditional radial velocity fitting code; rather, it is a parameter estimation routine. It estimates both the orbital period and the full set of orbital parameters for a binary system with high resolution.*
 
 ### Performance & Precision
-Syntriod's parameter precision was tested using tens of thousands of synthetic datasets, each consisting of only 6 and 10 random observation points.
+
+**Period Retrieval Accuracy: Syntriod vs. Lomb-Scargle**
+
+To evaluate period detection capability under sparse sampling conditions, Syntriod was benchmarked against the classical Lomb-Scargle periodogram using **10,000 synthetic datasets** across varying numbers of observations ($N_{obs}$). 
+
+As illustrated below, Syntriod significantly outperforms Lomb-Scargle in both **Satisfactory Precision (SP)** (solid lines, representing accuracy within a 10% error margin) and **Perfect Precision (PP)** (dashed lines, representing accuracy within a 1% error margin), maintaining exceptional reliability even with extremely limited data points ($N_{obs} \le 6$).
+
+<div align="center">
+<img width="695" height="551" alt="image" src="https://github.com/user-attachments/assets/41e3aabf-5414-44fc-80d4-06c9918ba75e" />
+</div>
+
+**Full Orbital Parameter Precision**
+
+Beyond period determination, Syntriod's precision across the entire orbital parameter space was rigorously evaluated using tens of thousands of synthetic datasets consisting of only 6 and 10 random observation points.
 
 <img width="1329" height="1346" alt="image" src="https://github.com/user-attachments/assets/cb6f9a1b-fa96-4245-9ff0-fd875dbd29da" />
 
